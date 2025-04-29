@@ -1,0 +1,38 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f6;
+    background: url(https://imgs.search.brave.com/DeKQ2VYkn6yKyL0VH_cBmmvBCa8vBouvjNs0tWRA_9o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM4/ODM0ODc5MS9waG90/by9ibGFjay1zdG9u/ZS10ZXh0dXJlLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz0z/bVdYaFZsOVhnNFc4/aFZLRlVmanNOTkpl/US1BY044YnY5YWQ0/ZkdabzlFPQ);
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.card-header {
+    background-color: #060707;
+    color: white;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #090909;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.is-invalid .invalid-feedback {
+    display: block;
+}

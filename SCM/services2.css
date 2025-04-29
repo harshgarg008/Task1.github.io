@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://imgs.search.brave.com/L_ZFvMGlAlkAT5rwKGa-43EeyodijiWYoIsszKPCK-Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMw/NzUwODU5OS9waG90/by9ibGFjay1iYWNr/Z3JvdW5kLWRhcmst/c3RhZ2UtYmFja2dy/b3VuZC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9bFZ4NWZU/b3dNbnN1YjczM21F/UFNmNjlNeGE4UXFL/NmhFVHVmR25zams2/RT0);
+    color: #333;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #6200ea;
+  }
+  
+  .services p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card i {
+    font-size: 2.5rem;
+    color: #6200ea;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .service-card button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .service-card button:hover {
+    background-color: #3700b3;
+  }
+  
+  .para{
+    color: white;
+  }
+  

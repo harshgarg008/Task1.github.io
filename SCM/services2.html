@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Quiz Application</title>
+  <link rel="stylesheet" href="services2.css">
+</head>
+<body>
+  <section class="services">
+    <h1>Our Services</h1>
+    <p class="para">Explore the key features that make our quiz application versatile and user-friendly:</p>
+    <div class="services-container">
+      <div class="service-card" id="user-auth">
+        <i class="fas fa-user-shield"></i>
+        <h2>User Authentication</h2>
+        <p>Securely sign up and log in and access personalized features.</p>
+        <button onclick="showDetails('User Authentication')">Learn More</button>
+      </div>
+      <div class="service-card" id="scoring-feedback">
+        <i class="fas fa-clipboard-check"></i>
+        <h2>Scoring and Feedback</h2>
+        <p>Get automatic scoring, detailed feedback, and the option to review correct answers.</p>
+        <button onclick="showDetails('Scoring and Feedback')">Learn More</button>
+      </div>
+      <div class="service-card" id="offline-mode">
+        <i class="fas fa-wifi-slash"></i>
+        <h2>Offline Mode</h2>
+        <p>Take quizzes even without an internet connection.</p>
+        <button onclick="showDetails('Offline Mode')">Learn More</button>
+      </div>
+      <div class="service-card" id="content-support">
+        <i class="fas fa-book"></i>
+        <h2>Content Support</h2>
+        <p>Access quizzes on multiple subjects.</p>
+        <button onclick="showDetails('Content Support')">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="services2.js"></script>
+</body>
+</html>
+
