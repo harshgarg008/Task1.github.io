@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    background: url(https://imgs.search.brave.com/u7tJBhZD6dTe263ihaITd5u5U6rMuc_93e2x7av6CaQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcwNTMy/ODQuanBn);
+    background-size: cover;
+    background-position: center;
+}
+
+#ordered{
+    color: white;
+    font-size: 27px;
+}
+
+#unordered{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: underline 5px;
+}

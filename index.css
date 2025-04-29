@@ -1,0 +1,183 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-style: 'Poppins' , sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://imgs.search.brave.com/_-05i1qe845itR7bHjnT99QemjBcml7m2r349ryzPfs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFlL2M2/LzU3LzFlYzY1Nzdi/MWQ3ZGY2MGQyZmI1/MWM0MzViZmVmN2Q4/LmpwZw);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: #333;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+    color: white;
+} 
+
+.header.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    user-select: none;
+    justify-content: space-between;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50;
+    background: transparent;
+    border: 3px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    padding: 7px;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: white;
+    color: #162938;
+}
+
+.div class {
+    color: white;
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #091723;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #080a0a;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(234, 238, 238, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 1ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+h3 {
+    font-size: 4.0rem;
+    color: aliceblue;
+    margin-bottom: 5rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+  
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+  
+.justify-center {
+    justify-content: center;
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+.hidden {
+    display: none;
+}
+
+.navigation {
+    display: flex; /* Ensure navigation items are in a row */
+    align-items: center; /* Center items vertically */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header.logo {
+        font-size: 1.5em;
+    }
+}
+
+    .navigation a {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+
+    .navigation .btnLogin-popup {
+        margin-left: 15px; /* Reduce margin for button */
+        font-size: 0.9em; /* Smaller font size */
+    }
+
+

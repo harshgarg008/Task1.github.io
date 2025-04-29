@@ -1,0 +1,99 @@
+/* Styling for the heading */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #f8f9fa; /* Light shade for better contrast */
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow */
+}
+
+/* General body styling */
+body {
+    margin: 0;
+    background: url('https://imgs.search.brave.com/PO2niw56k-7Qq7uKKfmiFaoJQUnr_FciDyev-Mk_4NM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzg2LzM3LzU3/LzM2MF9GXzI4NjM3/NTc5M190TU5DZXpD/eFpWSk16WFZsdW5C/b0tJMUpXUDcyY0U5/TC5qcGc') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+}
+
+/* Gallery container styling */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows items to wrap */
+    gap: 40px; /* Space between items */
+    padding: 50px 30px;
+}
+
+/* Individual gallery items styling */
+.gallery a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Text color */
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.gallery img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+}
+
+.gallery a:hover p {
+    color: #f39c12; /* Highlight text on hover */
+}
+
+.gallery p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Search bar styling */
+#search-bar {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 12px 20px;
+    border: 2px solid #f8f9fa;
+    border-radius: 25px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent background */
+    color: #fff;
+    outline: none;
+    text-align: center;
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+#search-bar:focus {
+    background: rgba(255, 255, 255, 0.5); /* Brighter background */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Glow effect */
+}
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .gallery img {
+        width: 220px;
+        height: 220px;
+    }
+
+    #search-bar {
+        width: 80%;
+    }
+}
+
